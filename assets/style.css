@@ -78,8 +78,9 @@ li {
     justify-content: space-around;
     width: 600px;
     padding: 2px;
-    background-color: white;
-    border: 3px solid rgb(207, 240, 223);
+    color: rgb(2, 59, 35);
+    background-color: rgb(207, 240, 223);
+    border: 3px solid white;
     border-radius: 5px;
 }
 
@@ -105,7 +106,7 @@ li {
 .work-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 /* Bottom container */
@@ -158,7 +159,7 @@ li {
     
 }
 
-.middle-container, aside {
+aside, .middle-container {
     font-weight: 200%;
 }
 
@@ -205,29 +206,25 @@ li {
         width: 75%;
         height: 75%;
     }
-    .card-box-1 {
-        width: 75%;
-        height: 75%;
-    }
-    .footer-links {
-        font-size: 75%;
-        width: 75%;
-        height: 75%;
-    }
+
     .link-button {
         width: 75%;
         height: 75%;
     }
-    .card-box-1 .link-button {
-        width: 450px;
+
+    #card-box-1 {
+        width: 75%;
         height: 75%;
     }
+
+    #card-box-1 .link-button {
+        width: 75%;
+        height: 75%;
+    }
+
     #andy-1 {
         border-bottom: solid 4px rgb(2, 59, 35);
         border-right: 0px;
     }
-}
 
-/* I think my shortcomings with the responsiveness have something to do with the use of @media screen.
-    The top .link-button combined with card-box-1, just like it was to make the width longer,
-    for some reason does not work like the other @media screens. */
+}
